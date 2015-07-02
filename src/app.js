@@ -1,12 +1,12 @@
 
 import {createServer} from 'http';
+import * as greets from 'greetings';
 
 const headers = Object.freeze({ 'Content-Type': 'text/plain'});
 
-createServer((req, res) => { 
-    
+createServer((req, res) => {
     res.writeHead(200, headers);
-    
-    let message = 'Welcome ES6!';
-    res.end(`${message}\n`);
+
+    let message = `${greets.n} ES6!\n`;
+    res.end(message);
 });
