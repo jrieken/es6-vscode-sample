@@ -7,7 +7,7 @@ const headers = Object.freeze({ 'Content-Type': 'text/plain'});
 const server = createServer((req, res) => {
     res.writeHead(200, headers);
 
-    let message = `${greets.n} ES6!\n`;
+    let message = `${greets.next()} ES6!\n`;
     res.end(message);
 });
 
