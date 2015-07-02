@@ -1,0 +1,8 @@
+{
+    "name": "VSCode_ES6",
+    "version": "0.0.1",
+    "devDependencies": {
+        "babel": "*",
+        "tsd": "*"
+    }
+}
