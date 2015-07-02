@@ -12,11 +12,11 @@
 	"isShellCommand": true,
 	"tasks": [
 		{
+			"args": ["src", "--out-dir", "lib", "-w"],
 			"taskName": "watch",
 			"suppressTaskName": true,
-			"isBuildCommand": true,
-			"isWatching": true,
-			"args": ["src", "--out-dir", "lib", "-w"]
+			"isBuildCommand": true, // make this the F1 > Task: Run Build Task gesture
+			"isWatching": true // tell VS Code not wait for this task to finish
 		}
 	]
 }
