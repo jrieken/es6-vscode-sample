@@ -5,5 +5,5 @@
         "babel": "*",
         "tsd": "*"
     },
-    "main": "src/app.js"
+    "main": "lib/app.js"
 }
