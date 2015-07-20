@@ -12,7 +12,7 @@
 	"isShellCommand": true,
 	"tasks": [
 		{
-			"args": ["src", "--out-dir", "lib", "-w"],
+			"args": ["src", "--out-dir", "lib", "-w", "--source-maps"],
 			"taskName": "watch",
 			"suppressTaskName": true,
 			"isBuildCommand": true, // make this the F1 > Task: Run Build Task gesture

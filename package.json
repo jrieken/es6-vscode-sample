@@ -4,5 +4,6 @@
     "devDependencies": {
         "babel": "*",
         "tsd": "*"
-    }
+    },
+    "main": "lib/app.js"
 }
