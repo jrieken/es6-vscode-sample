@@ -1,11 +1,11 @@
 {
 	"version": "0.1.0",
-	// List of configurations. Add new configurations or edit existing ones.  
+	// List of configurations. Add new configurations or edit existing ones.
 	// ONLY "node" and "mono" are supported, change "type" to switch.
 	"configurations": [
 		{
 			// Name of configuration; appears in the launch configuration drop down menu.
-			"name": "Launch app.js",
+			"name": "Launch lib/app.js",
 			// Type of configuration. Possible values: "node", "mono".
 			"type": "node",
 			// Workspace relative or absolute path to the program.
@@ -19,14 +19,16 @@
 			// Workspace relative or absolute path to the runtime executable to be used. Default is the runtime executable on the PATH.
 			"runtimeExecutable": null,
 			// Optional arguments passed to the runtime executable.
-			"runtimeArgs": [],
+			"runtimeArgs": ["--nolazy"],
 			// Environment variables passed to the program.
-			"env": { },
+			"env": {
+				"NODE_ENV": "development"
+			},
 			// Use JavaScript source maps (if they exist).
-			"sourceMaps": true,
+			"sourceMaps": false,
 			// If JavaScript source maps are enabled, the generated code is expected in this directory.
-			"outDir": "lib"
-		}, 
+			"outDir": null
+		},
 		{
 			"name": "Attach",
 			"type": "node",
