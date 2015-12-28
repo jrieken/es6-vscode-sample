@@ -1,9 +1,10 @@
 {
-    "name": "VSCode_ES6",
-    "version": "0.0.1",
-    "devDependencies": {
-        "babel": "*",
-        "tsd": "*"
-    },
-    "main": "lib/app.js"
+  "name": "VSCode_ES6",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015": "*",
+    "tsd": "*"
+  },
+  "main": "lib/app.js"
 }
